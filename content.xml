@@ -1,0 +1,162 @@
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:m0="http://www.siebel.com/xml/DIG%20Pedido%20Ventas%20Prepago%20IO">
+    <SOAP-ENV:Body>
+        <m:Crear_Pedido_Prepago xmlns:m="http://siebel.com/CustomUI">
+            <_XML xsi:type="m0:OrdenTopElmt">
+                <m0:Orden xsi:type="m0:Orden">
+                    <m0:Pedido xsi:type="m0:Pedido">
+                        <m0:AccountId xsi:type="xsd:string">1-13PSLZ</m0:AccountId>
+                        <m0:BackOfficeErrorText xsi:type="xsd:string"></m0:BackOfficeErrorText>
+                        <m0:BackOfficeProcessStatus xsi:type="xsd:string"></m0:BackOfficeProcessStatus>
+                        <m0:IntegrationId xsi:type="xsd:string">${suscriberID}</m0:IntegrationId>
+                        <m0:OrderDate xsi:type="xsd:string">19/01/2011 17:11:31</m0:OrderDate>
+                        <m0:OrderTypeId xsi:type="xsd:string">0-D14E</m0:OrderTypeId>
+                        <m0:PrimaryPositionId xsi:type="xsd:string">04-HKCSE</m0:PrimaryPositionId>
+                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                        <m0:Detalle xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="Detalle[1]">
+                            <m0:item0 xsi:type="m0:Detalle">
+                                <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                <m0:DIGAssetNumber xsi:type="xsd:string">584128000001</m0:DIGAssetNumber>
+                                 <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                <m0:DIGIMEI xsi:type="xsd:string">999021000000001</m0:DIGIMEI>
+                                <m0:DIGIMSI xsi:type="xsd:string">734021000000001</m0:DIGIMSI>
+                                <m0:DIGRangoIP xsi:type="xsd:string"/>
+                                <m0:DIGSIMCard xsi:type="xsd:string">8958021002260000001</m0:DIGSIMCard>
+                                <m0:DIGIP xsi:type="xsd:string"/>
+                                <m0:LineNumber xsi:type="xsd:string">1</m0:LineNumber>
+                                <m0:Note xsi:type="xsd:string">NOTA2</m0:Note>
+                                <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                <m0:ProductId xsi:type="xsd:string">1-IK9</m0:ProductId>
+                                <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-1</m0:IntegrationId2>
+                                <m0:SubDetalle xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="SubDetalle[6]">
+                                    <m0:item0 xsi:type="m0:SubDetalle">
+                                        <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                        <m0:DIGAssetNumber xsi:type="xsd:string">584128000001</m0:DIGAssetNumber>
+                                        <m0:DIGContratoPermanencia xsi:type="xsd:string">PRUEBA2</m0:DIGContratoPermanencia>
+                                        <m0:DIGErrorDescription xsi:type="xsd:string">PRUEBA2</m0:DIGErrorDescription>
+                                        <m0:DIGFaxMSISDN xsi:type="xsd:string">00000</m0:DIGFaxMSISDN>
+                                        <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                        <m0:DIGIMEI xsi:type="xsd:string">999021000000001</m0:DIGIMEI>
+                                        <m0:DIGIMSI xsi:type="xsd:string">PRUEBA2</m0:DIGIMSI>
+                                        <m0:DIGRangoIP xsi:type="xsd:string"></m0:DIGRangoIP>
+                                        <m0:DIGSIMCard xsi:type="xsd:string">8958021002260000001</m0:DIGSIMCard>
+                                        <m0:DIGIP xsi:type="xsd:string"></m0:DIGIP>
+                                        <m0:LineNumber xsi:type="xsd:string">2</m0:LineNumber>
+                                        <m0:Note xsi:type="xsd:string">PRUEBA2</m0:Note>
+                                        <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                        <m0:ProductId xsi:type="xsd:string">1-35NL</m0:ProductId>
+                                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                        <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                        <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-2</m0:IntegrationId2>
+                                    </m0:item0>
+                                    <m0:item0 xsi:type="m0:SubDetalle">
+                                        <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                        <m0:DIGAssetNumber xsi:type="xsd:string"></m0:DIGAssetNumber>
+                                        <m0:DIGContratoPermanencia xsi:type="xsd:string"></m0:DIGContratoPermanencia>
+                                        <m0:DIGErrorDescription xsi:type="xsd:string"></m0:DIGErrorDescription>
+                                        <m0:DIGFaxMSISDN xsi:type="xsd:string"></m0:DIGFaxMSISDN>
+                                        <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                        <m0:DIGIMEI xsi:type="xsd:string"></m0:DIGIMEI>
+                                        <m0:DIGIMSI xsi:type="xsd:string"></m0:DIGIMSI>
+                                        <m0:DIGRangoIP xsi:type="xsd:string"></m0:DIGRangoIP>
+                                        <m0:DIGSIMCard xsi:type="xsd:string"></m0:DIGSIMCard>
+                                        <m0:DIGIP xsi:type="xsd:string"></m0:DIGIP>
+                                        <m0:LineNumber xsi:type="xsd:string">3</m0:LineNumber>
+                                        <m0:Note xsi:type="xsd:string"></m0:Note>
+                                        <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                        <m0:ProductId xsi:type="xsd:string">1-369M</m0:ProductId>
+                                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                        <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                        <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-3</m0:IntegrationId2>
+                                    </m0:item0>
+                                    <m0:item0 xsi:type="m0:SubDetalle">
+                                        <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                        <m0:DIGAssetNumber xsi:type="xsd:string"></m0:DIGAssetNumber>
+                                        <m0:DIGContratoPermanencia xsi:type="xsd:string"></m0:DIGContratoPermanencia>
+                                        <m0:DIGErrorDescription xsi:type="xsd:string"></m0:DIGErrorDescription>
+                                        <m0:DIGFaxMSISDN xsi:type="xsd:string"></m0:DIGFaxMSISDN>
+                                        <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                        <m0:DIGIMEI xsi:type="xsd:string"></m0:DIGIMEI>
+                                        <m0:DIGIMSI xsi:type="xsd:string"></m0:DIGIMSI>
+                                        <m0:DIGRangoIP xsi:type="xsd:string"></m0:DIGRangoIP>
+                                        <m0:DIGSIMCard xsi:type="xsd:string"></m0:DIGSIMCard>
+                                        <m0:DIGIP xsi:type="xsd:string"></m0:DIGIP>
+                                        <m0:LineNumber xsi:type="xsd:string">4</m0:LineNumber>
+                                        <m0:Note xsi:type="xsd:string"></m0:Note>
+                                        <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                        <m0:ProductId xsi:type="xsd:string">1-C4JJN</m0:ProductId>
+                                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                        <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                        <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-4</m0:IntegrationId2>
+                                    </m0:item0>
+                                    <m0:item0 xsi:type="m0:SubDetalle">
+                                        <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                        <m0:DIGAssetNumber xsi:type="xsd:string"></m0:DIGAssetNumber>
+                                        <m0:DIGContratoPermanencia xsi:type="xsd:string"></m0:DIGContratoPermanencia>
+                                        <m0:DIGErrorDescription xsi:type="xsd:string"></m0:DIGErrorDescription>
+                                        <m0:DIGFaxMSISDN xsi:type="xsd:string"></m0:DIGFaxMSISDN>
+                                        <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                        <m0:DIGIMEI xsi:type="xsd:string"></m0:DIGIMEI>
+                                        <m0:DIGIMSI xsi:type="xsd:string"></m0:DIGIMSI>
+                                        <m0:DIGRangoIP xsi:type="xsd:string"></m0:DIGRangoIP>
+                                        <m0:DIGSIMCard xsi:type="xsd:string"></m0:DIGSIMCard>
+                                        <m0:DIGIP xsi:type="xsd:string"></m0:DIGIP>
+                                        <m0:LineNumber xsi:type="xsd:string">5</m0:LineNumber>
+                                        <m0:Note xsi:type="xsd:string"></m0:Note>
+                                        <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                        <m0:ProductId xsi:type="xsd:string">1-34C8</m0:ProductId>
+                                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                        <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                        <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-5</m0:IntegrationId2>
+                                    </m0:item0>
+                                    <m0:item0 xsi:type="m0:SubDetalle">
+                                        <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                        <m0:DIGAssetNumber xsi:type="xsd:string"></m0:DIGAssetNumber>
+                                        <m0:DIGContratoPermanencia xsi:type="xsd:string"></m0:DIGContratoPermanencia>
+                                        <m0:DIGErrorDescription xsi:type="xsd:string"></m0:DIGErrorDescription>
+                                        <m0:DIGFaxMSISDN xsi:type="xsd:string"></m0:DIGFaxMSISDN>
+                                        <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                        <m0:DIGIMEI xsi:type="xsd:string"></m0:DIGIMEI>
+                                        <m0:DIGIMSI xsi:type="xsd:string"></m0:DIGIMSI>
+                                        <m0:DIGRangoIP xsi:type="xsd:string"></m0:DIGRangoIP>
+                                        <m0:DIGSIMCard xsi:type="xsd:string"></m0:DIGSIMCard>
+                                        <m0:DIGIP xsi:type="xsd:string"></m0:DIGIP>
+                                        <m0:LineNumber xsi:type="xsd:string">6</m0:LineNumber>
+                                        <m0:Note xsi:type="xsd:string"></m0:Note>
+                                        <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                        <m0:ProductId xsi:type="xsd:string">1-35CK</m0:ProductId>
+                                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                        <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                        <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-6</m0:IntegrationId2>
+                                    </m0:item0>
+                                    <m0:item0 xsi:type="m0:SubDetalle">
+                                        <m0:ActionCode xsi:type="xsd:string">Nuevo</m0:ActionCode>
+                                        <m0:DIGAssetNumber xsi:type="xsd:string"></m0:DIGAssetNumber>
+                                        <m0:DIGContratoPermanencia xsi:type="xsd:string"></m0:DIGContratoPermanencia>
+                                        <m0:DIGErrorDescription xsi:type="xsd:string"></m0:DIGErrorDescription>
+                                        <m0:DIGFaxMSISDN xsi:type="xsd:string"></m0:DIGFaxMSISDN>
+                                        <m0:DIGFreightTerms xsi:type="xsd:string"></m0:DIGFreightTerms>
+                                        <m0:DIGIMEI xsi:type="xsd:string"></m0:DIGIMEI>
+                                        <m0:DIGIMSI xsi:type="xsd:string"></m0:DIGIMSI>
+                                        <m0:DIGRangoIP xsi:type="xsd:string"></m0:DIGRangoIP>
+                                        <m0:DIGSIMCard xsi:type="xsd:string"></m0:DIGSIMCard>
+                                        <m0:DIGIP xsi:type="xsd:string"></m0:DIGIP>
+                                        <m0:LineNumber xsi:type="xsd:string">7</m0:LineNumber>
+                                        <m0:Note xsi:type="xsd:string"></m0:Note>
+                                        <m0:PIN xsi:type="xsd:string"></m0:PIN>
+                                        <m0:ProductId xsi:type="xsd:string">EQ-00001</m0:ProductId>
+                                        <m0:Status xsi:type="xsd:string">Abierto</m0:Status>
+                                        <m0:ValidationStatus xsi:type="xsd:string"></m0:ValidationStatus>
+                                        <m0:IntegrationId2 xsi:type="xsd:string">${suscriberID}-7</m0:IntegrationId2>
+                                    </m0:item0>
+                                </m0:SubDetalle>
+                            </m0:item0>
+                        </m0:Detalle>
+                        </m0:Pedido>
+                </m0:Orden>
+            </_XML>
+        </m:Crear_Pedido_Prepago>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
